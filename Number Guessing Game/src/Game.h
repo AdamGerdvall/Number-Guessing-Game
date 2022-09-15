@@ -8,7 +8,7 @@
 class Game
 {
 public:
-	Game(/*int lives, int gameScore, int gameDiff, int guessNum*/);
+	Game();
 
 	~Game();
 
@@ -23,10 +23,10 @@ public:
 	
 	int lives;
 	int gameScore = 0;
-	int gameDiff;
-	int guessNum;
+	int gameDiff {};
+	int guessNum{};
 	bool playing = true;
-	bool inGame;
+	bool inGame{};
 
 private:
 };

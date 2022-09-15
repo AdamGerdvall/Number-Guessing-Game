@@ -1,11 +1,8 @@
 #include "Game.h"
 
-Game::Game(/*int newLives, int newScore, int newNumber, int newDiff*/)
+Game::Game()
 {
-	//int lives = newLives;
-	//int score = newScore;
-	//int diff = newDiff;
-	//int number = newNumber;
+
 }
 
 Game::~Game()
